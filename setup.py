@@ -10,7 +10,7 @@ setup(
     license="MIT",
     author="yoshiso",
     author_email="nya060@gmail.com",
-    url="https://github.com/yoshiso/athena-timeseries.git",
+    url="https://github.com/ta1ke/athena-timeseries.git",
     keywords="",
     packages=find_packages(exclude=("tests")),
     python_requires=">=3.7",

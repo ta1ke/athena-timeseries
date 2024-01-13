@@ -3,7 +3,7 @@
 ## Install
 
 ```
-pip install git+https://github.com/yoshiso/athena-timeseries.git -U 
+pip install git+https://github.com/ta1ke/athena-timeseries.git -U 
 ```
 
 ## Useage
