@@ -11,3 +11,5 @@ build
 .vscode
 .idea
 test.ipynb
+myvenv
+README.md
