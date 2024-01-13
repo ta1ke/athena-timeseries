@@ -5,11 +5,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="athena_timeseries",
-    version="1.0.0",
+    version="1.0.1",
     description="AWS Athena helper for time series operation",
     license="MIT",
-    author="yoshiso",
-    author_email="nya060@gmail.com",
+    author="ta",
+    author_email="xxxx@gmail.com",
     url="https://github.com/ta1ke/athena-timeseries.git",
     keywords="",
     packages=find_packages(exclude=("tests")),
