@@ -175,12 +175,18 @@ order by dt
 
     df = df.set_index(["dt", "symbol"])["value"].unstack()
 
+    """
     df.index = pd.to_datetime(
         df.index,
         format="%Y-%m-%d %H:%M:%S.%f %Z",
         cache=True,
         infer_datetime_format=True,
     )
+    """
+
+     # タイムゾーン情報の解析
+    df.index = pd.to_datetime(df.index, cache=True)
+
 
     if tz is not None:
         if df.index.tz is None:

@@ -8,7 +8,7 @@ from .uploader import upload
 
 
 __all__ = ["AthenaTimeSeries"]
-//
+
 
 class AthenaTimeSeries:
     def __init__(self, boto3_session, glue_db_name: str, s3_path: str):
